@@ -1,0 +1,14 @@
+.titlebg{
+    font-size: 26px;
+    color:#000;
+    font-family: 'PFEncoreSansPro-Regular';
+    margin: 10px 0px;
+    text-align: center;
+}
+.titlebgline{
+    width:120px;
+    height: 2px;
+    display: block;
+    background: #c7222a;
+    margin: 20px auto;
+}

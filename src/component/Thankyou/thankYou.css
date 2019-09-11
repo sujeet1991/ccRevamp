@@ -1,0 +1,18 @@
+.paddthank{
+    min-height: auto;
+}
+.img-center{
+    margin: 10px auto;
+    display: block;
+}
+.bntnew{
+    background: #c7222a;
+    color: #fff;
+    padding: 10px 15px;
+    font-family: 'PFHandbookPro-Regular';
+    font-size: 20px;
+}
+.failimg{
+    margin-top:20px;
+    margin-bottom: 30px;
+}

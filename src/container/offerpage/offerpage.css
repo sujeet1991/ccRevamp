@@ -1,0 +1,263 @@
+.parahead{
+    font-size:21px;
+    color: #000;
+    font-family: 'PFHandbookPro-Regular';
+    margin: 0px; 
+}
+.card-wrapp{
+    margin-bottom: 30px;
+    
+}
+.card-wrapp img{
+    margin: auto;
+
+}
+.card-detail{
+    border: 1px solid #e1e1e1;
+    min-height:360px;
+    width: 100%;
+    padding: 10px 15px;
+    padding-top: 60px;
+    margin-top: -37px;
+    box-shadow:0px 3px 3px 1px #ccc;
+    box-sizing: border-box; 
+}
+.card-detail .bank-name{
+    background: #e1e1e1;
+    color: #000;
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding: 15px 10px;
+    font-family: 'PFEncoreSansPro-Regular';
+}
+.cardsubti{
+    font-size: 16px;
+    color: #000;
+    font-family: 'PFEncoreSansPro-Regular';
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.bullet-point{
+    font-size: 12px;
+    color: #000;
+    margin: 0px;
+    font-family: 'PFEncoreSansPro-Regular';
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 10px;
+}
+.bullet-point:before {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 5px;
+    height: 5px;
+    background: #000;
+    border-radius: 100%;
+    content: "";
+}
+.no-buttet{
+   padding-left:0px;  
+}
+.no-buttet:before{
+    content:none;
+}
+.padd-right{
+    padding-left:0px;
+    padding-right: 5px; 
+}
+.ruppes-amt{
+    font-size: 18px;
+    color: #000;
+}
+.more-info{
+    background: none;
+    box-shadow: none;
+    color: #034ea2;
+    font-size: 16px;
+    margin-top: 12px;
+    border: 0px;
+    font-family: 'PFHandbookPro-Regular';
+
+}
+.more-info span{
+    font-size: 13px;
+    vertical-align: middle;
+}
+.more-info-apply{
+    font-family: 'PFHandbookPro-Regular';
+    border: 1px solid #c7222a;
+    color: #c7222a;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    background:none;
+}
+.more-info-apply:hover{
+    background: #c7222a;
+    color: #fff;
+}
+.ul-offerpage{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.ul-offerpage li{
+    display:block;
+    float: left;
+    width: 20%;
+    border-left:1px solid #e6e6e4;
+}
+.ul-offerpage li:first-child{
+    border-left:0px;
+}
+.bgfilter_icon{
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    display: block;
+    background-position: center;
+}
+.bg_icon1{
+    background: url('./images/inside_travel.png') no-repeat
+}
+.activefilter .bg_icon1{
+    background: url('./images/inside_travel_red.png') no-repeat
+}
+.bg_icon2{
+    background: url('./images/inside_shopping.png') no-repeat
+}
+.activefilter .bg_icon2{
+    background: url('./images/inside_shopping_red.png') no-repeat
+}
+.bg_icon3{
+    background: url('./images/inside_fuel.png') no-repeat
+}
+.activefilter .bg_icon3{
+    background: url('./images/inside_fuel_red.png') no-repeat
+}
+.bg_icon4{
+    background: url('./images/inside_movie.png') no-repeat
+}
+.activefilter .bg_icon4{
+    background: url('./images/inside_movie_red.png') no-repeat;
+}
+.bg_icon5{
+    background: url('./images/inside_dinning.png') no-repeat;
+}
+
+.activefilter .bg_icon5{
+    background: url('./images/inside_dinning_red.png') no-repeat
+}
+.paddfir{
+    margin-top:10px; 
+    padding:10px  20px!important;
+    min-height: auto !important;
+    
+}
+.activefilter .regular-checkbox:checked:after{
+    color:#c7222a;
+}
+.activefilter .regular-checkbox:checked{
+    border:1px solid #c7222a;
+}
+.col-showcard{
+    display: inline-block;
+    float: none;
+}
+
+.modelpopBg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 999;
+    background: rgb(0,0,0,0.8);
+}
+.modelContent{
+    background-color: #fefefe;
+    /* margin: 10% auto;  */
+    padding: 40px 30px;
+    padding-bottom: 60px;
+    position: relative;
+    border: 1px solid #888;
+    width: 90%;
+    height: 90%;
+    left: 50%;
+    box-sizing: border-box;
+
+    top: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn_close{
+    width: 30px;
+    height: 30px;
+    background: url('./images/Close.png') no-repeat center center;
+    right: -10px;
+    cursor: pointer;
+    position: absolute;
+    top: -13px;
+    background-size: cover;
+
+}
+.popuptitle{
+    color: #c7222a;
+    font-family: 'PFHandbookPro-Regular';
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.card-img{
+    margin-bottom: 30px;
+}.card-img img{ 
+    margin: 0px auto;
+    display: block;
+    width:100%;
+}
+.btn-app{
+    margin: 10px auto;
+    width: 90%;
+    display: block;
+    background: #c7222a; 
+    color: #fff;
+}
+.popsubTitle{
+    font-family: 'PFHandbookPro-Regular';
+    font-size: 24px;
+    margin-top: 0px;
+    color: #000;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+.col-innerPOP{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.col-innerTitle{
+    font-size: 18px;
+    font-family: 'PFHandbookPro-Regular';
+    margin: 0px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.col-innerSubDesc{
+    font-size: 14px;
+    font-family: 'PFEncoreSansPro-Regular';
+    margin: 0px;
+    color: #000;
+    margin-bottom: 5px;
+}
+.scroll-custom {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+/* .scroll-custom::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+} */

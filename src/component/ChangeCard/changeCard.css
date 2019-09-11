@@ -1,0 +1,39 @@
+.change_card{
+    width: 100%;
+    height: 190px;
+ 
+    box-sizing: border-box;
+    padding: 0px;
+    background: #fff;
+    border: 1px solid #c2c2c2;
+    margin:20px auto;
+    padding: 20px 100px
+
+}
+.cart_img{
+    width: 225px;
+    height: 150px;
+    display: inline-block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.card_name{
+    font-family: 'PFHandbookPro-Regular';
+    font-size: 25px;
+    color: #c7222a;
+    display: inline-block;
+    vertical-align: top;
+    margin-left:20px;
+    margin-top: 10%;
+}
+.changeCardLink{
+    margin-top: 20%;
+    font-family: 'PFHandbookPro-Regular';
+    font-size: 23px;
+    text-align: right;
+    display: inline-block;
+    float:right;
+    text-decoration: underline;
+    color: #034ea2;
+}

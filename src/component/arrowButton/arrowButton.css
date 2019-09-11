@@ -1,0 +1,28 @@
+.btnArrow{
+    width: 25px;
+    height: 20px;
+    background: url('./images/next.png') no-repeat;
+    background-position:center center; 
+    position: relative;
+    right: 0;
+    top: 10px;
+    float: right;
+}
+
+.btn-conti{
+    font-family: 'PFHandbookPro-Medium';
+    background: #c7222a;
+    color: #fff;
+    width: 300px;
+    text-align: left;
+    outline: none;
+    margin: 0px auto;
+    overflow: hidden;
+    border: 0px;
+    padding: 10px 15px;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 30px;
+
+}

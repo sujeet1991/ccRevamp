@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'PFEncoreSansPro-Regular';
+  src: url(../fonts/PFEncoreSansPro-Regular.eot);
+  src: url(../fonts/PFEncoreSansPro-Regular.woff) format('woff'), url(../fonts/PFEncoreSansPro-Regular.woff) format('woff'), url(../fonts/PFEncoreSansPro-Regular.ttf) format('truetype'), url(../fonts/PFEncoreSansPro-Regular.eot?#iefix) format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFHandbookPro-Regular';
+  src: url(../fonts/PFHandbookPro-Regular.woff) format('woff'), url(../fonts/PFHandbookPro-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFHandbookPro-Bold';
+  src: url(../fonts/PFHandbookPro-Bold.eot);
+  src: url(../fonts/PFHandbookPro-Bold.woff) format('woff'), url(../fonts/PFHandbookPro-Bold.woff) format('woff'), url(../fonts/PFHandbookPro-Bold.ttf) format('truetype'), url(../fonts/PFHandbookPro-Bold.eot?#iefix) format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PFHandbookPro-Medium';
+  src: url(../fonts/pfhandbookpro-medium.eot);
+  src: url(../fonts/pfhandbookpro-medium.woff) format('woff'), url(../fonts/PFHandbookPro-Bold.woff) format('woff'), url(../fonts/PFHandbookPro-Bold.ttf) format('truetype'), url(../fonts/PFHandbookPro-Bold.eot?#iefix) format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PFHandbookPro-Light';
+  src: url(../fonts/PFHandbookPro-Light.eot);
+  src: url(../fonts/PFHandbookPro-Light.woff) format('woff'), url(../fonts/PFHandbookPro-Light.woff) format('woff'), url(../fonts/PFHandbookPro-Light.ttf) format('truetype'), url(../fonts/PFHandbookPro-Light.svg#PFHandbookPro-Light) format('svg'), url(../fonts/PFHandbookPro-Light.eot?#iefix) format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*======================== popup layout End=======================*/
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #000000;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #000000;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #000000;
+}
+
+body{background-color: #f1f2f2!important ; background: url(../images/fulll.gif?v=4) no-repeat  ;     background-size: 97%;
+    background-position: -27% 0;   font-size: 18px;line-height: 24px;color: #000;font-family: 'PFEncoreSansPro-Regular'!important; margin: 0; padding: 0;  }
+.dummyheader { height: 158px; background-color: #f1f2f2!important    }
+.bgimage {/*background: url(../images/bgstuff.png) no-repeat 48px 0px ; */
+  margin: -8px 0 0 0;
+    padding: 53px 0 0 0;}
+
+.midwithlogin { max-width: 980px; margin:0px auto 80px auto;  }
+.midwithlogin .lftloginbx { display: inline-block; width: 60%;  vertical-align: top;/*  background: url(../images/whitecircle.png) no-repeat 0px 0px ; */ }
+.midwithlogin .rhtloginbx { display: inline-block; width: 38%;  vertical-align: top }
+.lftinner { margin:80px 0 0 0;  }
+.lftinner img { width: 78%;  }
+
+.formbox { font-size: 16px;  }
+.frmheadone {  line-height: 31px; font-size: 34px; font-family: 'PFHandbookPro-Medium'; margin:0px; padding:0px 0 6px 0;  }
+.frmheadtwo { font-size: 24px;  margin:0px; padding:0px 0 20px 0; }
+
+.fromrow { padding:0 0 15px 0;      position: relative;}
+.fromrowbtn { padding:0 0 10px 0;  }
+.fromrowbtn2 { padding:12px 0 10px 0;  }
+
+.fromrow .inptrow { padding:0 0 3px 0;  }
+.fromrow  .lblhead { color: #888888; padding-left: 0 0 3px 0  }
+.fromrow .inptrow input {font-family: 'PFEncoreSansPro-Regular'!important; width: 100%;  padding:10px 8px ; border:1px solid #cecece; font-size: 16px; color: #000; border-radius: 3px;  }
+.otpbx {color: #888888; padding: 0 0 18px 0  }
+.otpman { width: 200px; text-align: right; float: right; color: #000;    }
+.otpman .otplft { display: inline-block; vertical-align: top; font-size: 14px; padding:2px 3px 0 0; color: #888888  }
+.otpman .otprht { display: inline-block;  vertical-align: top }
+.otpman .otprht button {font-size: 13px; text-transform: uppercase; border-radius: 4px ; color: #c7222a; background: #fff; border:1px solid #cecece; padding: 1px 6px;   }
+.dverror { color: #c7222a; display: none;  }
+.resendlink { position: absolute;z-index: 10;     top: 34px;
+    right: 10px;
+    font-size: 15px; }
+
+.normal_btn{ background-color: #c6222a;text-align: center; border: 1px solid #c6222a; color: #fff!important; font-size: 19px; width: 100%; height: 48px; line-height:42px; font-family: 'PFEncoreSansPro-Regular'; border-radius: 3px; text-decoration: none!important;transition: all ease-in-out 0.3s;  }
+.normal_btn:hover{ background-color: #fff; color: #c6222a!important; }
+
+.blwbutn{ padding: 2px 0px; font-size: 16px;}
+.formbox a { color: #034ea2;   }
+.lastbox { padding: 10px 0px 2px 0px; color: #808285; font-size: 16px; }
+.clearb { clear: both;  }
+.blwbutn2{ padding: 2px 0px; font-size: 11px; color: #808285;  }
+.blwbutn2 a{ color: #034ea2; text-decoration: underline;  }
+.padhead { padding-bottom: 20px;  }
+
+
+
+
+
+/*======== progress button  ========*/
+.in-progress{text-shadow:none; color: rgba(255, 255, 255, 0.6)!important;  background:-webkit-linear-gradient(-45deg,rgba(231,100,112,0.5) 25%,transparent 25%,transparent 50%,rgba(231,100,112,0.5) 50%,rgba(231,100,112,0.5) 75%,transparent 75%,transparent),-webkit-linear-gradient(top,#c71c2c,#c71c2c)!important;background:-moz-linear-gradient(-45deg,rgba(231,100,112,0.5) 25%,transparent 25%,transparent 50%,rgba(231,100,112,0.5) 50%,rgba(231,100,112,0.5) 75%,transparent 75%,transparent),-moz-linear-gradient(top,#c71c2c,#c71c2c);background:-ms-linear-gradient(-45deg,rgba(231,100,112,0.5) 25%,transparent 25%,transparent 50%,rgba(231,100,112,0.5) 50%,rgba(231,100,112,0.5) 75%,transparent 75%,transparent),-ms-linear-gradient(top,#c71c2c,#c71c2c)!important;background:-o-linear-gradient(-45deg,rgba(231,100,112,0.5) 25%,transparent 25%,transparent 50%,rgba(231,100,112,0.5) 50%,rgba(231,100,112,0.5) 75%,transparent 75%,transparent),-o-linear-gradient(top,#c71c2c,#c71c2c)!important;background:linear-gradient(-45deg,rgba(231,100,112,0.5) 25%,transparent 25%,transparent 50%,rgba(231,100,112,0.5) 50%,rgba(231,100,112,0.5) 75%,transparent 75%,transparent),linear-gradient(top,#c71c2c,#c71c2c)!important;-pie-background:linear-gradient(-45deg,rgba(231,100,112,0.5) 25%,transparent 25%,transparent 50%,rgba(231,100,112,0.5) 50%,rgba(231,100,112,0.5) 75%,transparent 75%,transparent),linear-gradient(top,#c71c2c,#c71c2c)!important;background-repeat:repeat!important;-webkit-background-size:40px 40px,100% 100%!important;-moz-background-size:40px 40px,100% 100%!important;-ms-background-size:40px 40px,100% 100%!important;-o-background-size:40px 40px,100% 100%!important;background-size:40px 40px,100% 100%!important;-webkit-animation:progress-bar-stripes 2s linear infinite!important;-moz-animation:progress-bar-stripes 2s linear infinite!important;-ms-animation:progress-bar-stripes 2s linear infinite!important;-o-animation:progress-bar-stripes 2s linear infinite!important;animation:progress-bar-stripes 2s linear infinite!important; outline:none}
+@-webkit-keyframes progress-bar-stripes{from{background-position:0 0}to{background-position:40px 0}}
+@-moz-keyframes progress-bar-stripes{from{background-position:0 0}to{background-position:40px 0}}
+@keyframes progress-bar-stripes{from{background-position:0 0}to{background-position:40px 0}}
+.in-progress:disabled{cursor:default;opacity:.5}
+.in-progress:hover {color: rgba(255, 255, 255, 0.6)!important;}
+/*======== progress button end ========*/
+
+
+@media (min-width: 1590px)  {
+body {background-size: 84%;
+    background-position: 23% -25%; }
+}
+
+@media (min-width: 1690px)  {
+body {background-size: 78%;
+    background-position: 23% 1%; }
+}
+
+@media (min-width: 1900px)  {
+body {background-size: 70%;  background-position: 23% -5%; }
+}
+
+@media (max-width: 1290px)  {
+  
+}
+
+@media (max-width: 1160px)  {
+  body {    background-size: 97%;
+    background-position: -20% 7%;}
+ 
+}
+
+@media (max-width: 1025px)  {
+  
+}
+
+@media (max-width: 800px) { 
+  .midwithlogin .lftloginbx { display: none; }
+.midwithlogin .rhtloginbx { display: block; width: 72%; margin:auto;}
+body{ background:none;  }
+  }
+
+@media (max-width: 640px) { 
+ .midwithlogin { max-width: 980px; margin:40px auto;  }
+.midwithlogin .lftloginbx { display: none; width: 100%;  vertical-align: top }
+.midwithlogin .rhtloginbx { display: block; width: 90%; margin:auto;  vertical-align: top }
+.frmheadone {   line-height: 29px;   font-size: 32px;}
+.frmheadtwo {   font-size: 18px;    }
+.dummyheader { display: none;  }
+.bgimage { background-image: none; padding: 3px 0 0 0; }
+body{ background:none;  }
+}

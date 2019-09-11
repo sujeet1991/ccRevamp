@@ -1,0 +1,104 @@
+.margin-topbtn{
+    margin-top:40px;
+}
+.danger-cus{
+    padding: 10px;
+}
+.padd0{
+	padding: 0px;
+}
+.whiteBg{
+    background: 100%;
+    background: #fff;
+    margin-bottom:20px;
+    min-height: 500px;
+    border: 1px solid #c2c2c2;
+    padding: 60px 50px;
+    box-sizing: border-box; 
+}
+.errormsg {
+    position: relative;
+    width: 100%;
+    background: #ef4856;
+    color: #fff;
+    font-weight: 300;
+	font-size: 10px;
+	font-family: 'PFEncoreSansPro-Regular';
+    padding: 0 5px;
+    left: 0;
+    display: block;
+    margin-top: 0;
+}
+.fromrow {
+    padding: 0 0 25px;
+    position: relative;
+}
+.txtinput {
+    font-family: 'PFEncoreSansPro-Regular';
+    width: 100%;
+	padding: 10px 8px;
+	outline: none;
+    border: 1px solid #cecece;
+    font-size: 14px;
+    color: #000;
+    border-radius: 3px;
+}
+.in-progress {
+    pointer-events: none;
+	text-shadow: none;
+	color: rgba(255, 255, 255, 0.6)!important;
+	background: -webkit-linear-gradient(-45deg, rgba(231, 100, 112, 0.5) 25%, transparent 25%, transparent 50%, rgba(231, 100, 112, 0.5) 50%, rgba(231, 100, 112, 0.5) 75%, transparent 75%, transparent), -webkit-linear-gradient(top, #c71c2c, #c71c2c)!important;
+	background: -moz-linear-gradient(-45deg, rgba(231, 100, 112, 0.5) 25%, transparent 25%, transparent 50%, rgba(231, 100, 112, 0.5) 50%, rgba(231, 100, 112, 0.5) 75%, transparent 75%, transparent), -moz-linear-gradient(top, #c71c2c, #c71c2c);
+	background: -ms-linear-gradient(-45deg, rgba(231, 100, 112, 0.5) 25%, transparent 25%, transparent 50%, rgba(231, 100, 112, 0.5) 50%, rgba(231, 100, 112, 0.5) 75%, transparent 75%, transparent), -ms-linear-gradient(top, #c71c2c, #c71c2c)!important;
+	background: -o-linear-gradient(-45deg, rgba(231, 100, 112, 0.5) 25%, transparent 25%, transparent 50%, rgba(231, 100, 112, 0.5) 50%, rgba(231, 100, 112, 0.5) 75%, transparent 75%, transparent), -o-linear-gradient(top, #c71c2c, #c71c2c)!important;
+	background: linear-gradient(-45deg, rgba(231, 100, 112, 0.5) 25%, transparent 25%, transparent 50%, rgba(231, 100, 112, 0.5) 50%, rgba(231, 100, 112, 0.5) 75%, transparent 75%, transparent), linear-gradient(to top, #c71c2c, #c71c2c)!important;
+	-pie-background: linear-gradient(-45deg, rgba(231, 100, 112, 0.5) 25%, transparent 25%, transparent 50%, rgba(231, 100, 112, 0.5) 50%, rgba(231, 100, 112, 0.5) 75%, transparent 75%, transparent), linear-gradient(to top, #c71c2c, #c71c2c)!important;
+	background-repeat: repeat!important;
+	-webkit-background-size: 40px 40px, 100% 100%!important;
+	-moz-background-size: 40px 40px, 100% 100%!important;
+	-ms-background-size: 40px 40px, 100% 100%!important;
+	-o-background-size: 40px 40px, 100% 100%!important;
+	background-size: 40px 40px, 100% 100%!important;
+	-webkit-animation: progress-bar-stripes 2s linear infinite!important;
+	-moz-animation: progress-bar-stripes 2s linear infinite!important;
+	-ms-animation: progress-bar-stripes 2s linear infinite!important;
+	-o-animation: progress-bar-stripes 2s linear infinite!important;
+	animation: progress-bar-stripes 2s linear infinite!important;
+	outline: none
+}
+
+@-webkit-keyframes progress-bar-stripes {
+	from {
+		background-position: 0 0
+	}
+	to {
+		background-position: 40px 0
+	}
+}
+
+@-moz-keyframes progress-bar-stripes {
+	from {
+		background-position: 0 0
+	}
+	to {
+		background-position: 40px 0
+	}
+}
+
+@keyframes progress-bar-stripes {
+	from {
+		background-position: 0 0
+	}
+	to {
+		background-position: 40px 0
+	}
+}
+
+.in-progress:disabled {
+	cursor: default;
+	opacity: .5
+}
+
+.in-progress:hover {
+	color: rgba(255, 255, 255, 0.6)!important;
+}

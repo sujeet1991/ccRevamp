@@ -1,0 +1,10 @@
+.priva-con{
+    color: #808285;
+    font-size: 18px;
+    margin: 20px auto;
+    font-family: 'PFEncoreSansPro-Regular';
+}
+.priva-con a{
+    color: #034ea2;
+    text-decoration: underline;
+}
