@@ -1,5 +1,5 @@
 
-let urlapi=`https://cors-anywhere.herokuapp.com/http://cbf52e5a.ngrok.io/`;
+let urlapi=`https://cors-anywhere.herokuapp.com/http://85a5b63b.ngrok.io/`;
 const Api={
     "getOffer":`${urlapi}getOffer`,
     "UserExist":`${urlapi}UserExist`,
