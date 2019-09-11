@@ -493,7 +493,7 @@ class BankDetailBasic extends Component{
                         <Error>
                         <Basic 
                         userExist={this.state.userExist}
-                        ref={{ref1:this.ref1,ref2:this.ref2}}
+                        ref={{ref1=this.ref1,ref2:this.ref2}}
                         error={this.state.errors}
                         NameBlur={this.FnameBlur}
                         LnameBlur={this.LnameBlur}
